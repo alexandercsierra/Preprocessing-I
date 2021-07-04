@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>My Resume</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +14,79 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <header> 
+      <div class="navDiv">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Work History</a>
+        </nav>
+      </div>
+      <div class="banner">
+        <div>
+          <img src="images/profile.jpg" alt="Alex smiling in the snow">
+        </div>
+        <div class="titles">
+          <h1>Alexander Sierra</h1>
+          <h2>Student Web Developer</h2>
+          <p>I'm currently studying web development at Lambda School, and looking forward to creating functional, useful websites</p>
+          <!-- <button>Lets Team Up</button> -->
+        </div>
+      </div>
+    </header>
+    <section class="midsection">
+      <div class="midsectionDiv">
+        <div class="intro" id="about">
+          <h2>About Me</h2>
+          <p>I'm a former pre-medical student with a Bachelor's of Science in Health Sciences looking to break into the field of technology. I am a current student of Lambda School's full stack web development program, graduating in the summer of 2020.</p>
+        </div>
+        <div class="stuff" id="skills">
+          <h3>Skills:</h3>
+          <div class= "skills">
+            <p class="topP">HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Responsive Websites</p>
+            <p>3D Modelling</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="workHistory" id="work">
+      <h3>Work History</h3>
+      <table>
+        <tr>
+          <td><strong>Yrs</strong></td>
+          <td><strong>Company</strong></td>
+          <td><strong>Title</strong></td>
+          <td><strong>Main Duties</strong></td>
+        </tr>
+        <tr class="oddRow">
+          <td>1</td>
+          <td>University of Rochester</td>
+          <td>Document Imaging Specialist</td>
+          <td>Data Entry</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Student Phlebotomist</td>
+          <td>LabCorp</td>
+          <td>Venipuncture</td>
+        </tr>
+        <tr class="oddRow">
+          <td>1</td>
+          <td>ScribeAmerica</td>
+          <td>Cheif Medical Scribe</td>
+          <td>Medical scribing</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  <footer>
+      <p><a href="https://alexandercsierra.github.io/">Click to visit my portfolio</a></p>
+      <p>Copyright Awesomeness 2018</p>
+    </footer>
 </body>
 </html>
